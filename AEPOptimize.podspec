@@ -5,10 +5,10 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                         The Experience Platform Optimize extension provides APIs to enable real-time personalization workflows in the Adobe Experience Platform SDKs using Adobe Target or Adobe Journey Optimizer Offer Decisioning. 
                         DESC
-  s.homepage         = "https://github.com/adobe/aepsdk-optimize-ios"
+  s.homepage         = "https://github.com/FrazierMark/aepsdk-optimize-ios"
   s.license          = { :type => "Apache License, Version 2.0", :file => "LICENSE" }
   s.author           = "Adobe Experience Platform SDK Team"
-  s.source           = { :git => "https://github.com/adobe/aepsdk-optimize-ios.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/FrazierMark/aepsdk-optimize-ios.git", :tag => s.version.to_s }
   s.swift_version = '5.1'
   s.ios.deployment_target = '10.0'
 

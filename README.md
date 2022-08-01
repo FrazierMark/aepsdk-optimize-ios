@@ -1,6 +1,6 @@
 # Adobe Experience Platform Mobile SDKs - Optimize extension
 
-[![Cocoapods](https://img.shields.io/cocoapods/v/AEPOptimize.svg?color=orange&label=AEPOptimize&logo=apple&logoColor=white)](https://cocoapods.org/pods/AEPOptimize)[![SPM](https://img.shields.io/badge/SPM-Supported-orange.svg?logo=apple&logoColor=white)](https://swift.org/package-manager/)[![CircleCI](https://img.shields.io/circleci/project/github/adobe/aepsdk-optimize-ios/main.svg?logo=circleci)](https://circleci.com/gh/adobe/workflows/aepsdk-optimize-ios)[![Code Coverage](https://img.shields.io/codecov/c/github/adobe/aepsdk-optimize-ios/main.svg?logo=codecov)](https://codecov.io/gh/adobe/aepsdk-optimize-ios/branch/main)
+[![Cocoapods](https://img.shields.io/cocoapods/v/AEPOptimize.svg?color=orange&label=AEPOptimize&logo=apple&logoColor=white)](https://cocoapods.org/pods/AEPOptimize)[![SPM](https://img.shields.io/badge/SPM-Supported-orange.svg?logo=apple&logoColor=white)](https://swift.org/package-manager/)[![CircleCI](https://img.shields.io/circleci/project/github/FrazierMark/aepsdk-optimize-ios/main.svg?logo=circleci)](https://circleci.com/gh/adobe/workflows/aepsdk-optimize-ios)[![Code Coverage](https://img.shields.io/codecov/c/github/FrazierMark/aepsdk-optimize-ios/main.svg?logo=codecov)](https://codecov.io/gh/FrazierMark/aepsdk-optimize-ios/branch/main)
 
 ## About this project
 
@@ -41,7 +41,7 @@ To add the AEPOptimize Package to your application, from the Xcode menu select:
 
 `File > Swift Packages > Add Package Dependency...`
 
-Enter the URL for the AEPOptimize package repository: `https://github.com/adobe/aepsdk-optimize-ios.git`. Click Next.
+Enter the URL for the AEPOptimize package repository: `https://github.com/FrazierMark/aepsdk-optimize-ios.git`. Click Next.
 
 Specify the Version rule for the package options. Click Next and Finish.
 
@@ -49,7 +49,7 @@ Alternatively, if your project has a `Package.swift` file, you can add AEPOptimi
 
 ```
 dependencies: [
-    .package(url: "https://github.com/adobe/aepsdk-optimize-ios.git", .upToNextMajor(from: "1.0.0"))
+    .package(url: "https://github.com/FrazierMark/aepsdk-optimize-ios.git", .upToNextMajor(from: "1.0.0"))
 ],
 targets: [
        .target(name: "YourTarget",
@@ -107,8 +107,8 @@ Check out the [Documentation](./Documentation/README.md) directory to learn more
 
 | Project                                                      | Description                                                  |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [AEPCore Extensions](https://github.com/adobe/aepsdk-core-ios) | The AEPCore extensions provide a common set of functionality and services required by all the Mobile SDK extensions. |
-| [AEPEdge Extension](https://github.com/adobe/aepsdk-edge-ios) | The AEPEdge extension enables sending data to Adobe Experience Platform from Mobile Apps. | 
+| [AEPCore Extensions](https://github.com/FrazierMark/aepsdk-core-ios) | The AEPCore extensions provide a common set of functionality and services required by all the Mobile SDK extensions. |
+| [AEPEdge Extension](https://github.com/FrazierMark/aepsdk-edge-ios) | The AEPEdge extension enables sending data to Adobe Experience Platform from Mobile Apps. | 
 | [AEP SDK Sample App for iOS](https://github.com/adobe/aepsdk-sample-app-ios) | It contains iOS sample apps, both Objective-C and Swift variants, for the AEP Mobile SDKs. |
 
 ## Contributing

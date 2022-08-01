@@ -21,8 +21,8 @@ let package = Package(
         .library(name: "AEPOptimize", targets: ["AEPOptimize"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/adobe/aepsdk-core-ios.git", .upToNextMajor(from: "3.2.0")),
-        .package(url: "https://github.com/adobe/aepsdk-edge-ios.git", .upToNextMajor(from: "1.2.0")),
+        .package(url: "https://github.com/FrazierMark/aepsdk-core-ios.git", .upToNextMajor(from: "3.2.0")),
+        .package(url: "https://github.com/FrazierMark/aepsdk-edge-ios.git", .upToNextMajor(from: "1.2.0")),
     ],
     targets: [
         .target(name: "AEPOptimize",
